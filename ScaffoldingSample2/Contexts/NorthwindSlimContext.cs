@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata; // Comment
-using dbo = ScaffoldingSample.Models.dbo;
+using dbo = ScaffoldingSample2.Models.dbo;
 
-namespace ScaffoldingSample.Contexts
+namespace ScaffoldingSample2.Contexts
 { // Comment
     public partial class NorthwindSlimContext : DbContext
     {
@@ -29,7 +29,7 @@ namespace ScaffoldingSample.Contexts
         {
             
         }
-        
+
         public NorthwindSlimContext(DbContextOptions<NorthwindSlimContext> options) : base(options)
         {
         }

@@ -2,7 +2,7 @@
 //Console.WriteLine("Hello, World!");
 
 using Microsoft.EntityFrameworkCore;
-using ScaffoldingSample.Contexts;
+using ScaffoldingSample1.Contexts;
 
 using (var context = new NorthwindSlimContext())
 {

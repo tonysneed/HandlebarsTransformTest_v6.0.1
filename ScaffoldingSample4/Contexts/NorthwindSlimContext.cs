@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata; // Comment
-using ScaffoldingSample.Models;
+using ScaffoldingSample4.Models;
 
-namespace ScaffoldingSample.Contexts
+namespace ScaffoldingSample4.Contexts
 { // Comment
     public partial class NorthwindSlimContext : DbContext
     {

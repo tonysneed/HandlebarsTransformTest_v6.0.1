@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using ScaffoldingSample.Models;
 //using dbo = ScaffoldingSample.Models.dbo;
 
-namespace ScaffoldingSample.Contexts
-{
-    public partial class NorthwindSlimContext
-    {
+//namespace ScaffoldingSample.Contexts
+//{
+//    public partial class NorthwindSlimContext
+//    {
 //        partial void OnModelCreatingPartial(ModelBuilder modelBuilder)
 //        {
 //#pragma warning disable CS8604 // Possible null reference argument.
@@ -23,5 +23,5 @@ namespace ScaffoldingSample.Contexts
 //                    v => (Country)Enum.Parse(typeof(Country?), v));
 //#pragma warning restore CS8604 // Possible null reference argument.
 //        }
-    }
-}
+//    }
+//}

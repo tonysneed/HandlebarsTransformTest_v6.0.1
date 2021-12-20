@@ -1,4 +1,4 @@
-﻿namespace ScaffoldingSample.Models
+﻿namespace ScaffoldingSample4.Models
 {
     public class EntityBase
     {

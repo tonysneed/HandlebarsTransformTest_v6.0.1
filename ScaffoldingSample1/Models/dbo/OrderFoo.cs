@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ScaffoldingSample.Models.dbo
+namespace ScaffoldingSample1.Models.dbo
 { // Comment
     [Table("Order")]
     public partial class OrderFoo : EntityBase // My Handlebars Helper
