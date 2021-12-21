@@ -1,4 +1,4 @@
-﻿namespace ScaffoldingSample.Models
+﻿namespace ScaffoldingSample2.Models
 {
     public enum Country
     {

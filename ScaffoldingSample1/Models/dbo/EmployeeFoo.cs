@@ -34,6 +34,7 @@ namespace ScaffoldingSample1.Models.dbo
         [StringLength(15)]
         public string? CountryFoo { get; set; }
 
+        [ForeignKey(nameof(EmployeeIdFoo))]
         [InverseProperty(nameof(TerritoryFoo.EmployeesFoo))]
         public virtual ICollection<TerritoryFoo> TerritoriesFoo { get; set; }
 
