@@ -12,7 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ScaffoldingSample1\ScaffoldingSample1.csproj" />
+    <ProjectReference Include="..\NoTransform_Annotations\NoTransform_Annotations.csproj" />
+    <ProjectReference Include="..\NoTransform_Fluent\NoTransform_Fluent.csproj" />
+    <ProjectReference Include="..\Transform_Annotations\Transform_Annotations.csproj" />
+    <ProjectReference Include="..\Transform_Fluent\Transform_Fluent.csproj" />
   </ItemGroup>
 
 </Project>
